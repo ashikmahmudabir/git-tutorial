@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Raleway SemiBold;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#333,black);
+}
+body .card{
+    width: 450px;
+    height: auto;
+    padding: 1rem;
+    background: white;
+    z-index: 1;
+}
+.card h1{
+    color: #333;
+}
+.card p{
+    color: #444;
+    font-size: .9rem;
+    margin: .5rem 0rem;
+    line-height: 1.5;
+
+}
+.card button{
+    padding: .5rem 1rem;
+    border: none;
+    background: black;
+    color: white;
+    outline: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
