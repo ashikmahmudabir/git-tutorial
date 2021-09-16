@@ -19,9 +19,19 @@ body .card{
     padding: 1rem;
     background: white;
     z-index: 1;
+    border-right: 1px solid black;
+    box-shadow: 0rem 0px 20px rgba(255,255,255,0.2);
+    
+}
+.card:first-child{
+    border-radius: 4px 0px 0px 4px;
+}
+.card:last-child {
+    border-radius: 0px 4px 4px 0px;
 }
 .card h1{
     color: #333;
+    font-size: 1.4rem;
 }
 .card p{
     color: #444;
@@ -38,4 +48,6 @@ body .card{
     outline: none;
     border-radius: .5rem;
     font-size: 1rem;
+    cursor: not-allowed;
+    margin: .3rem 0rem;
 }
